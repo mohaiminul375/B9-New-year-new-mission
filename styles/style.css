@@ -146,3 +146,18 @@ main section {
 .schedule-container span{
     color: red;
 }
+
+/* best offer container */
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.middle-column{
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 15px;
+}
