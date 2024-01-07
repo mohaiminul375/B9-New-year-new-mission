@@ -191,11 +191,14 @@ main section {
 
 /* holiday sales */
 .holiday-sale-container {
-    text-align: center;
     border: 2px solid red;
     width: 80%;
     margin: 130px auto;
-
+    text-align: center;
+    height: 800px;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .sale-sub-title {
@@ -220,18 +223,20 @@ main section {
     margin-top: 30px;
 }
 .holiday-img-container{
-    margin-top: 50px;
-    background-image: url('../resources/Rectangle\ 2.png');
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 .holiday-img-container img{
-    width: 400px;
-    position: relative;
-    bottom: 200px;
+    width: 40%;
 }
+.discount-img{
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+
+
 /* Portfolio section */
 
 .portfolio-container {
@@ -259,11 +264,6 @@ main section {
     font-size: 20px;
     font-weight: 400;
 
-}
-.holiday-img-container{
-    display: flex;
-    justify-content: space-around;
-    height: 500px;
 }
 /* gallery */
 .img-container {
