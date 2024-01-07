@@ -133,7 +133,7 @@ main section {
 /* schedule section */
 .schedule-container {
     width: 50%;
-    background-color: beige;
+    background: rgba(255, 0, 0, 0.05);
     margin: 130px auto;
     text-align: center;
     padding: 100px 250px;
@@ -213,31 +213,61 @@ main section {
     margin: 16px 0 22px;
 }
 
-.portfolio-description{
+.portfolio-description {
     color: #07021199;
     font-size: 20px;
     font-weight: 400;
-    
+
 }
 
 /* gallery */
-.img-container{
+.img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.img-container img{
+.img-container img {
     width: 200px;
 
 }
-.img-container img:hover{
+
+.img-container img:hover {
     box-shadow: 10px 10px 15px gray;
 }
 
+/* news letter */
+.newsletter-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 200px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
 
+.newsletter-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 20px;
+}
 
+input[type='email'] {
+    width: 300px;
+    padding: 15px;
+    border-radius: 30px 0 0px 30px;
+    border: none;
+    margin-right: 0px;
+}
+
+input[type='submit'] {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 15px;
+    border: none;
+    color: white;
+}
 
 
 
