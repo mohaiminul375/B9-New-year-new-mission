@@ -194,7 +194,7 @@ main section {
 /* Portfolio section */
 
 .portfolio-container {
-    width: 90%;
+    width: 80%;
     margin: 130px auto;
     text-align: left;
 }
@@ -224,12 +224,12 @@ main section {
 .img-container {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 10px;
 }
 
 .img-container img {
-    width: 200px;
+    width: 300px;
 
 }
 
@@ -240,7 +240,7 @@ main section {
 /* news letter */
 .newsletter-container {
     width: 50%;
-    margin: 0 auto;
+    margin: 130px auto;
     text-align: center;
     padding: 80px 200px;
     border-radius: 16px;
@@ -315,9 +315,4 @@ hr {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-}
-
-.portfolio-container {
-    width: 50%;
-    margin: 130 auto;
 }
