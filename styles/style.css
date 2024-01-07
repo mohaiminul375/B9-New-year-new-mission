@@ -188,3 +188,41 @@ main section {
     border-radius: 50%;
     padding: 15px;
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 120px 150px 30px;
+    /* height: 500px; */
+}
+
+
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+hr{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+/* social icon */
+.social-icon{
+    margin-top: 45px;
+    text-align: center;
+
+}
+.social-icon img{
+    margin-right: 20px;
+    width: 55px;
+}
+/* copyright */
+.copyright-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
