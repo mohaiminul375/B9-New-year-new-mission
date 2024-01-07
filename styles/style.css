@@ -126,3 +126,23 @@ main section {
 .party-text button:hover{
     background-color:#FAA10D;
 }
+
+/* schedule section */
+.schedule-container{
+   width: 50%;
+   background-color: beige;
+   margin: 130px auto;
+   text-align: center;
+   padding: 100px 250px;
+   border-radius: 5px;
+}
+.schedule-container h4{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.schedule-container span{
+    color: red;
+}
