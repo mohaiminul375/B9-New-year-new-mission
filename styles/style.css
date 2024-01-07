@@ -191,7 +191,6 @@ main section {
 
 /* holiday sales */
 .holiday-sale-container {
-    border: 2px solid red;
     width: 80%;
     margin: 130px auto;
     text-align: center;
@@ -342,7 +341,10 @@ hr {
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.15);
 }
-
+.contact p{
+    display: flex;
+    justify-content: center;
+}
 /* social icon */
 .social-icon {
     margin-top: 45px;
