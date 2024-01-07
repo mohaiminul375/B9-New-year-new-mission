@@ -100,7 +100,8 @@ main section {
     align-items: center;
     color: white;
 }
-.party-text, .party-img{
+
+.party-text, .party-img {
     width: 50%;
     padding: 0 50px;
 }
@@ -118,37 +119,41 @@ main section {
     font-weight: 400;
     margin: 24px 0;
 }
-.party-text  button{
+
+.party-text button {
     padding: 5px 10px;
     border-radius: 5px;
-    border:none;
+    border: none;
 }
-.party-text button:hover{
-    background-color:#FAA10D;
+
+.party-text button:hover {
+    background-color: #FAA10D;
 }
 
 /* schedule section */
-.schedule-container{
-   width: 50%;
-   background-color: beige;
-   margin: 130px auto;
-   text-align: center;
-   padding: 100px 250px;
-   border-radius: 5px;
+.schedule-container {
+    width: 50%;
+    background-color: beige;
+    margin: 130px auto;
+    text-align: center;
+    padding: 100px 250px;
+    border-radius: 5px;
 }
-.schedule-container h4{
+
+.schedule-container h4 {
     color: #070211;
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
-.schedule-container span{
+
+.schedule-container span {
     color: red;
 }
 
 /* best offer container */
-.best-offer-container{
+.best-offer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +161,29 @@ main section {
     padding: 0 100px;
 }
 
-.middle-column{
+/* left column and right column*/
+.left-column h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.left-column h3, .right-column h3 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.left-column p, .right-column p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+/* middle column */
+.middle-column {
     border: 8px solid red;
     border-radius: 50%;
     padding: 15px;
