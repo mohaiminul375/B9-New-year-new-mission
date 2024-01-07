@@ -69,30 +69,60 @@ main section {
 
 }
 
-.offer-sub-title{
+.offer-sub-title {
     margin: 45px 0 20px;
     color: #F00;
     font-size: 24px;
     font-weight: 500;
 }
 
-.category-title{
+.category-title {
     font-size: 45px;
     font-weight: 700;
 }
 
-.offer-img{
+.offer-img {
     margin-top: 48px;
 }
 
 /* midnight party section */
 
-.party-container{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+.party-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
     height: 500px;
-    margin: 130px auto 0 ;
+    margin: 130px auto 0;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.party-text, .party-img{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.party-title {
+    color: #FFF;
+    font-size: 64px;
+    line-height: 88px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+.party-text  button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border:none;
+}
+.party-text button:hover{
+    background-color:#FAA10D;
 }
