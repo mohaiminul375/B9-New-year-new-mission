@@ -4,17 +4,45 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+
 /* common style */
 
 
 /* header */
-header{
-   background-image: url('../resources/Banner\ Image.png');
-   width: 100%;
-   height: 500px;
-   background-repeat: no-repeat;
-   background-size:cover ;
-   width: 90%;
-   height: 560px;
-   margin: 30px auto;
+header {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 560px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.content {
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+.banner-sub-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    margin-top: 40px;
+    font-size: 72px;
+    font-weight: 900;
 }
