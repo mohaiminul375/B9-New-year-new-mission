@@ -6,7 +6,30 @@
 }
 
 /* common style */
+.common-title-1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 40px 0 20px;
+}
 
+.common-sub-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 45px 0px 20px;
+}
+
+.text-primary {
+    color: red;
+}
+
+.common-description {
+    margin: 22px 0px 40px;
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /* header */
 /* header and banner */
@@ -69,17 +92,8 @@ main section {
 
 }
 
-.offer-sub-title {
-    margin: 45px 0 20px;
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-}
 
-.category-title {
-    font-size: 45px;
-    font-weight: 700;
-}
+
 
 .offer-img {
     margin-top: 48px;
@@ -114,10 +128,6 @@ main section {
 
 .party-description {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 24px 0;
 }
 
 .party-text button {
@@ -133,7 +143,7 @@ main section {
 /* schedule section */
 .schedule-container {
     width: 50%;
-    background: rgba(255, 0, 0, 0.05);
+    background: #ff00000d;
     margin: 130px auto;
     text-align: center;
     padding: 100px 250px;
@@ -148,9 +158,7 @@ main section {
     margin-bottom: 10px;
 }
 
-.schedule-container span {
-    color: red;
-}
+
 
 /* best offer container */
 .best-offer-container {
@@ -162,17 +170,8 @@ main section {
 }
 
 /* left column and right column*/
-.left-column h5 {
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-}
 
-.left-column h3, .right-column h3 {
-    font-size: 48px;
-    font-weight: 900;
-    margin: 10px 0;
-}
+
 
 .left-column p, .right-column p {
     color: #07021199;
@@ -200,10 +199,6 @@ main section {
     background-position: bottom;
 }
 
-.sale-sub-title {
-    font-size: 24px;
-    font-weight: 500;
-}
 
 .sale-title {
     font-size: 72px;
@@ -211,25 +206,19 @@ main section {
     margin-top: 16;
 }
 
-.sale-title span {
-    color: red;
-}
 
-.sale-description {
-    color: #07021199;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 30px;
-}
-.holiday-img-container{
+
+.holiday-img-container {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-.holiday-img-container img{
+
+.holiday-img-container img {
     width: 40%;
 }
-.discount-img{
+
+.discount-img {
     position: relative;
     bottom: 400px;
     left: 100px;
@@ -244,19 +233,8 @@ main section {
     text-align: left;
 }
 
-.portfolio-sub-title {
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
 
-}
 
-.portfolio-title {
-    font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
-    margin: 16px 0 22px;
-}
 
 .portfolio-description {
     color: #07021199;
@@ -264,6 +242,7 @@ main section {
     font-weight: 400;
 
 }
+
 /* gallery */
 .img-container {
     margin-top: 50px;
@@ -274,11 +253,13 @@ main section {
 
 .img-container img {
     width: 300px;
+    border-radius: 5px;
 
 }
 
 .img-container img:hover {
     box-shadow: 10px 10px 15px gray;
+    border-radius: 5px;
 }
 
 /* news letter */
@@ -288,14 +269,10 @@ main section {
     text-align: center;
     padding: 80px 200px;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    background: #ff00000d;
 }
 
-.newsletter-title {
-    font-size: 48px;
-    font-weight: 900;
-    margin: 40px 0 20px;
-}
+
 
 input[type='email'] {
     width: 300px;
@@ -341,10 +318,12 @@ hr {
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.15);
 }
-.contact p{
+
+.contact p {
     display: flex;
     justify-content: center;
 }
+
 /* social icon */
 .social-icon {
     margin-top: 45px;
