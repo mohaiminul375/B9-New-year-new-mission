@@ -9,14 +9,14 @@
     color: #070211;
     font-size: 48px;
     font-weight: 700;
-    margin: 40px 0 20px;
+    /* margin: 40px 0 20px; */
 }
 
 .common-sub-title {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    margin: 45px 0px 20px;
+    margin: 45px 0px 0px;
 }
 
 .text-primary {
@@ -157,8 +157,8 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    padding: 0 100px;
+    gap: 30px;
+    /* padding: 0 100px; */
 }
 
 /* left column and right column for best offer section*/
@@ -170,7 +170,9 @@ main section {
     font-weight: 400;
     margin-bottom: 40px;
 }
-
+.right-column h3{
+margin-top: 40px;
+}
 
 /* middle column */
 .middle-column {
